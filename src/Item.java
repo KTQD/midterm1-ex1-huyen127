@@ -12,12 +12,12 @@ public abstract class Item {
         this.description = description;
     }
 
-    public abstract void showInfo();
-
     public Item(String name, String description, String ID, float price) {
         this.name = name;
         this.description = description;
         this.ID = ID;
         this.price = price;
     }
+
+    public abstract void showInfo();
 }
